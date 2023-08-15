@@ -170,7 +170,7 @@ To connect your local repository to your GitHub repository, use the following co
 Once connected to GitHub, push your code to your GitHub repository using the following command:
 
   
-    git push -u origin master
+    git push -u origin main
 
 
 ## License
