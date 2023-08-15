@@ -104,7 +104,7 @@ their input, and the bot responds using the generate_response() function.
 To configure the chatbot behavior, you can modify the following settings in the `chatbot.py` script:
 
 - `api_key`: Set your OpenAI API key.
-- `model`: Choose the language model engine to use. For example, `model = "text-davinci-003"` specifies the text-        davinci-003 engine. You can replace this with other GPT-3 engines as needed.
+- `model`: Choose the NLP language model engine to use. For example, `model = "text-davinci-003"` specifies the text-    davinci-003 engine. You can replace this with other GPT-3 engines as needed.
 - `prompt`: The input text provided to the language model to generate responses.
 - `max_tokens`: Adjust the maximum number of tokens for generated responses. This parameter controls the length of       the response.
 - `n`: Specifies the number of responses to generate from the model. Use `n=1` to generate a single response.
