@@ -93,9 +93,6 @@ This function generates a response from the GPT-3 model based on the user's inpu
  
 print("Chatbot:", response) ; (To view a collection of uploaded screenshots)
 
-This function utilizes the OpenAI Python library to interact with the GPT-3 API, allowing the chatbot to provide contextually relevant and engaging responses.
-
-
 The `main()` function on the other hand initializes the chatbot conversation loop, where users can interact with the chatbot by typing 
 their input, and the bot responds using the generate_response() function.
 
