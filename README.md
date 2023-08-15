@@ -46,8 +46,8 @@ Choose one of the following methods to run the chatbot:
     ```bash
     pip install openai
 
-5. Copy the API key you have taken in its place in the `chatbot.py` file   
-
+5. Paste the API key you obtained into the designated location within the `chatbot.py` file (openai.api_key = 'your_API_Key')
+   
 6. Run the chatbot script:
 
    ```bash
@@ -65,9 +65,9 @@ Choose one of the following methods to run the chatbot:
     ```bash
     pip install openai
 
-4. Copy the API key you have taken in its place in the `chatbot.py` file
+3. Paste the API key you obtained into the designated location within the `chatbot.py` file (openai.api_key = 'your_API_Key')
  
-5. Run the `chatbot.py` script in your IDE
+4. Run the `chatbot.py` script in your IDE
 
 5.Engage in a conversation with the chatbot. Type your messages and receive responses based on the input.
 
