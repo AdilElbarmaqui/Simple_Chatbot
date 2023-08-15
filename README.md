@@ -135,8 +135,8 @@ To get started with the project, you can clone the existing repository from GitH
 
 
     git clone https://github.com/your name/repository_name.git
-    cd Basic_Chatbot
-  
+    
+ 
 
 ### Git Configuration
 
