@@ -91,7 +91,7 @@ This function generates a response from the GPT-3 model based on the user's inpu
 
     response = generate_response("Give me 5 things to do every morning")
  
-print("Chatbot:", response)
+print("Chatbot:", response) ; (To view a collection of uploaded screenshots)
 
 This function utilizes the OpenAI Python library to interact with the GPT-3 API, allowing the chatbot to provide contextually relevant and engaging responses.
 
@@ -128,6 +128,9 @@ please follow these steps:
  
 This project uses Git and GitHub for version control. Below are the steps to set up version control, commit your code, connect to GitHub, and push your code to the repository.
 By consistently using essential Git commands such as `clone`, `add`, `commit`, `push`, `pull`, you can efficiently tracked changes and maintained the integrity of the codebase. GitHub issues were utilized to keep track of tasks, enhancements, and bugs, enabling structured project management.
+
+First, navigate to your local project folder (where your code is) using the Git Bash terminal (e.g.,cd Desktop/chatbot
+)
 
 ### Clone and Navigate to the Repository
 
