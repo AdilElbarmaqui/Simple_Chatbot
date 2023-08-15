@@ -16,6 +16,7 @@ def generate_response(input_text):
     return response.choices[0].text.strip()
 
 
+
 def main():
     print("Chatbot: Hello! I'm a basic conversational chatbot. Type 'exit' to end the conversation.")
     while True:
