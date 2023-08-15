@@ -167,7 +167,7 @@ To connect your local repository to your GitHub repository, use the following co
     git remote add origin <repository_url>
 
 4-Push Your Code
-Once connected to GitHub, push your code to your GitHub repository (I pushed it in the main branch) using the following command:
+Once connected to GitHub, push your code to your GitHub repository (I pushed it in the `main` branch) using the following command:
 
   
     git push -u origin main
