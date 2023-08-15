@@ -126,8 +126,8 @@ please follow these steps:
 This project uses Git and GitHub for version control. Below are the steps to set up version control, commit your code, connect to GitHub, and push your code to the repository.
 By consistently using essential Git commands such as `clone`, `add`, `commit`, `push`, `pull`, you can efficiently tracked changes and maintained the integrity of the codebase. GitHub issues were utilized to keep track of tasks, enhancements, and bugs, enabling structured project management.
 
-First, navigate to your local project folder (where your code is) using the Git Bash terminal (e.g.,cd Desktop/chatbot
-)
+First, navigate to your local project folder (where your code is) using the Git Bash terminal
+(e.g.,cd Desktop/chatbot)
 
 ### Clone and Navigate to the Repository
 
