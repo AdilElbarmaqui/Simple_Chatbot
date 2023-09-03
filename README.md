@@ -46,8 +46,8 @@ Choose one of the following methods to run the chatbot:
     ```bash
     pip install openai
 
-5. Copy the API key you have taken in its place in the `chatbot.py` file   
-
+5. Paste the API key you obtained into the designated location within the `chatbot.py` file (openai.api_key = 'your_API_Key')
+   
 6. Run the chatbot script:
 
    ```bash
@@ -65,9 +65,9 @@ Choose one of the following methods to run the chatbot:
     ```bash
     pip install openai
 
-4. Copy the API key you have taken in its place in the `chatbot.py` file
+3. Paste the API key you obtained into the designated location within the `chatbot.py` file (openai.api_key = 'your_API_Key')
  
-5. Run the `chatbot.py` script in your IDE
+4. Run the `chatbot.py` script in your IDE
 
 5.Engage in a conversation with the chatbot. Type your messages and receive responses based on the input.
 
@@ -91,10 +91,7 @@ This function generates a response from the GPT-3 model based on the user's inpu
 
     response = generate_response("Give me 5 things to do every morning")
  
-print("Chatbot:", response)
-
-This function utilizes the OpenAI Python library to interact with the GPT-3 API, allowing the chatbot to provide contextually relevant and engaging responses.
-
+print("Chatbot:", response) ; (To view a collection of uploaded screenshots)
 
 The `main()` function on the other hand initializes the chatbot conversation loop, where users can interact with the chatbot by typing 
 their input, and the bot responds using the generate_response() function.
@@ -104,7 +101,7 @@ their input, and the bot responds using the generate_response() function.
 To configure the chatbot behavior, you can modify the following settings in the `chatbot.py` script:
 
 - `api_key`: Set your OpenAI API key.
-- `model`: Choose the language model engine to use. For example, `model = "text-davinci-003"` specifies the text-        davinci-003 engine. You can replace this with other GPT-3 engines as needed.
+- `model`: Choose the NLP language model engine to use. For example, `model = "text-davinci-003"` specifies the text-    davinci-003 engine. You can replace this with other GPT-3 engines as needed.
 - `prompt`: The input text provided to the language model to generate responses.
 - `max_tokens`: Adjust the maximum number of tokens for generated responses. This parameter controls the length of       the response.
 - `n`: Specifies the number of responses to generate from the model. Use `n=1` to generate a single response.
@@ -129,14 +126,18 @@ please follow these steps:
 This project uses Git and GitHub for version control. Below are the steps to set up version control, commit your code, connect to GitHub, and push your code to the repository.
 By consistently using essential Git commands such as `clone`, `add`, `commit`, `push`, `pull`, you can efficiently tracked changes and maintained the integrity of the codebase. GitHub issues were utilized to keep track of tasks, enhancements, and bugs, enabling structured project management.
 
+First, navigate to your local project folder (where your code is) using the Git Bash terminal
+
+(e.g.,cd Desktop/chatbot)
+
 ### Clone and Navigate to the Repository
 
 To get started with the project, you can clone the existing repository from GitHub and navigate into the cloned directory using the following commands in Git Bash:
 
 
     git clone https://github.com/your name/repository_name.git
-    cd Basic_Chatbot
-  
+    
+ 
 
 ### Git Configuration
 
@@ -167,10 +168,10 @@ To connect your local repository to your GitHub repository, use the following co
     git remote add origin <repository_url>
 
 4-Push Your Code
-Once connected to GitHub, push your code to your GitHub repository using the following command:
+Once connected to GitHub, push your code to your GitHub repository (I pushed it in the `main` branch) using the following command:
 
   
-    git push -u origin master
+    git push -u origin main
 
 
 ## License
